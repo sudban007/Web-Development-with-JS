@@ -1,2 +1,2 @@
-# Web-Development-with-JS
-A project involving JS
+# Tic Tac Toe with JS
+A project which creates Tic Tac Toe using JS
