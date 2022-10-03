@@ -14,14 +14,14 @@ const changeTurn = ()=>{
 const checkWin = ()=>{
     let boxtext = document.getElementsByclassName('boxtext');
     let wins = [
-        [0, 1, 2, 5, 5, 76],
-        [3, 4, 5, 5, 15, 76],
-        [6, 7, 8, 5, 25, 76,
-        [0, 3, 6, -5, 15, 76],
-        [1, 4, 7, 5, 15, 76],
-        [2, 5, 8, 15, 15, 76],
-        [0, 4, 8, 5, 15, 76],
-        [2, 4, 6, 5, 15, 76],
+        [0, 1, 2, 5, 5, 0],
+        [3, 4, 5, 5, 15, 0],
+        [6, 7, 8, 5, 25, 0],
+        [0, 3, 6, -5, 15, 90],
+        [1, 4, 7, 5, 15, 90],
+        [2, 5, 8, 15, 15, 90],
+        [0, 4, 8, 5, 15, 45],
+        [2, 4, 6, 5, 15, 135],
     ]
     wins.forEach(e =>{
         if((boxtext[e[0]].innerText === boxtext[e[1]].innerText) && (boxtext[e[2]].innerText === boxtext[e[1]].innerText) && (boxtext[e[0]].innerText !== "") ){
