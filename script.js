@@ -7,7 +7,7 @@ let isgameover = false;
 
 // Function to change the turn
 const changeTurn = ()=>{
-    return turn === "Y"? "0": "Y"
+    return turn === "X"? "0": "X"
 }
 
 // Function to check for a win
